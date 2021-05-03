@@ -334,6 +334,7 @@ header{
     #about-img {
         width: 90%;
         height: 300px;
+        object-fit: cover;
     }
     #about {
         align-items: flex-start;
@@ -352,7 +353,4 @@ header{
     #about{
         padding-left: 10px;
     }
-}
-.card img:hover{
-    transform: rotateY(-180deg);
 }
